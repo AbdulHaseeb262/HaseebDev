@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup - Educate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="navbar">
+      <div class="logo-dropdown">
+        <div class="logo">Educate</div>
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle">Our All Courses ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Web Development</a></li>
+            <li><a href="index.html">Data Science</a></li>
+            <li><a href="index.html">Digital Marketing</a></li>
+            <li><a href="index.html">Graphic Design</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="studying-process.html">Studying Process</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="register-btn" id="register-btn">Register Now</button>
+    </header>
+
+    <!-- Main Signup Section -->
+    <main class="signup-page">
+      <div class="register-container">
+        <h2>Register</h2>
+        <p class="signup-description">
+          Sign up today and begin your journey towards mastering new skills and
+          growing your career. Register now for our premium courses.
+        </p>
+        <form id="registerForm" class="signup-form">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <p class="login-link">
+          Already have an account? <a href="login.html">Login here</a>
+        </p>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>&copy; 2024 Educate. All rights reserved.</p>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
