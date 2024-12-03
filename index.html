@@ -3,109 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Educate</title>
+    <title>MediaCo - Home</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="navbar">
-      <div class="logo-dropdown">
-        <div class="logo">Educate</div>
-        <div class="dropdown">
-          <a href="#" class="dropdown-toggle">Our All Courses ▼</a>
-          <ul class="dropdown-menu">
-            <li><a href="web-development-blog-post.htm">Web Development</a></li>
-            <li><a href="#">Data Science</a></li>
-            <li><a href="#">Digital Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-      </div>
+    <header>
       <nav>
+        <div class="logo">MediaCo</div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="studying-process.html">Studying Process</a></li>
-          <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="staff.html">Our Staff</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="music.html">Music</a></li>
         </ul>
+        <button id="menu-toggle">☰</button>
       </nav>
-      <button class="register-btn" id="register-btn">Register Now</button>
+      <div class="hero">
+        <h1>Welcome to MediaCo</h1>
+        <p>Your ultimate destination for news, music, and updates</p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
     </header>
-
-    <main class="hero">
-      <!-- Text Section -->
-      <div class="hero-text">
-        <h1>Keep learning & unlock the power of your brain <span>🔋</span></h1>
+    <main>
+      <section class="intro">
+        <h2>Why Choose MediaCo?</h2>
         <p>
-          To apply for our affiliate program, start with signing up <br />with
-          Refersion for free. Refersion will set you up!
+          We bring you curated news, top charts in music, and engaging insights
+          to keep you informed and entertained.
         </p>
-        <div class="search-bar">
-          <input type="text" placeholder="Search any course" />
-          <button class="btn-search">Search Now</button>
+      </section>
+      <section class="features">
+        <h2>Our Features</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <h3>Breaking News</h3>
+            <p>Stay updated with real-time information about global events.</p>
+          </div>
+          <div class="feature">
+            <h3>Top Charts</h3>
+            <p>Listen to the latest and trending music across all genres.</p>
+          </div>
+          <div class="feature">
+            <h3>Our Experts</h3>
+            <p>
+              Get exclusive insights from industry experts and thought leaders.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
+      <section class="cta">
+        <h2>Stay Connected</h2>
+        <p>
+          Subscribe to our newsletter for personalized updates delivered
+          straight to your inbox.
+        </p>
+        <button class="btn">Subscribe Now</button>
+      </section>
     </main>
-
-    <section class="features">
-      <div class="feature-box">
-        <img src="/images/increase.png" alt="growing Revenue" />
-        <h3>Growing Revenue</h3>
-        <p>
-          Start with signing up Refersion for free. Refersion will set you up!
-        </p>
-      </div>
-      <div class="feature-box">
-        <img src="/images/check-mark.png" alt="best in class" />
-        <h3>Best in Class Content</h3>
-        <p>
-          Start with signing up Refersion for free. Refersion will set you up!
-        </p>
-      </div>
-      <div class="feature-box">
-        <img src="/images/competitive.png" alt="best in class" />
-        <h3>Competitive Advantage</h3>
-        <p>
-          Start with signing up Refersion for free. Refersion will set you up!
-        </p>
-      </div>
-      <div class="feature-box">
-        <img src="/images/business-growth.png" alt="best in class" />
-        <h3>Growth Potential</h3>
-        <p>
-          Start with signing up Refersion for free. Refersion will set you up!
-        </p>
-      </div>
-    </section>
-    <section class="content">
-      <!--  for more content later to be added -->
-      <div class="image-box">
-        <img src="/images/minimalist.png" alt="student studying illustration" />
-      </div>
-      <div class="content-box">
-        <h2>Some Content</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
-          nulla fuga commodi mollitia quidem quia in! Officia fugiat, recusandae
-          veniam, perferendis esse atque adipisci nihil explicabo dolor debitis
-          hic accusamus!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
-          nulla fuga commodi mollitia quidem quia in! Officia fugiat, recusandae
-          veniam, perferendis esse atque adipisci nihil explicabo dolor debitis
-          hic accusamus!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
-          nulla fuga commodi mollitia quidem quia in! Officia fugiat, recusandae
-          veniam, perferendis esse atque adipisci nihil explicabo dolor debitis
-          hic accusamus!
-        </p>
-      </div>
-    </section>
-
-    <footer class="footer">&copy; 2024 Educate. All rights reserved.</footer>
-    <script src="/index.js"></script>
+    <footer>
+      <p>&copy; 2024 MediaCo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
