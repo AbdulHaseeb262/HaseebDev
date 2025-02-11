@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <h1>Business Dashboard</h1>
+        <nav>
+          <ul>
+            <li><a href="#ads">Ads</a></li>
+            <li><a href="#companies">Companies</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#sale-events">Sale Events</a></li>
+            <li><a href="#event-details">Event Details</a></li>
+            <li><a href="#products">Products</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Ads Section -->
+      <section id="ads" class="section">
+        <div class="container">
+          <h2>Ads</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Ad ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Ad Type</th>
+                <th>Company</th>
+                <th>Contact</th>
+              </tr>
+            </thead>
+            <tbody id="ads-data">
+              <!-- Data will be dynamically inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Companies Section -->
+      <section id="companies" class="section">
+        <div class="container">
+          <h2>Companies</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Company ID</th>
+                <th>Company Name</th>
+                <th>Website</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody id="companies-data">
+              <!-- Data will be dynamically inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Company Locations Section -->
+      <section id="locations" class="section">
+        <div class="container">
+          <h2>Company Locations</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Location ID</th>
+                <th>Company</th>
+                <th>Address</th>
+                <th>Phone</th>
+              </tr>
+            </thead>
+            <tbody id="locations-data">
+              <!-- Data will be dynamically inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Sale Events Section -->
+      <section id="sale-events" class="section">
+        <div class="container">
+          <h2>Sale Events</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Event ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Sale Type</th>
+                <th>Category</th>
+                <th>Discount</th>
+                <th>Event Date</th>
+              </tr>
+            </thead>
+            <tbody id="sale-events-data">
+              <!-- Data will be dynamically inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Event Details Section -->
+      <section id="event-details" class="section">
+        <div class="container">
+          <h2>Event Details</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Detail ID</th>
+                <th>Event ID</th>
+                <th>Organizer</th>
+                <th>Format</th>
+                <th>Registration Link</th>
+                <th>Speakers</th>
+              </tr>
+            </thead>
+            <tbody id="event-details-data">
+              <!-- Data will be dynamically inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="section">
+        <div class="container">
+          <h2>Products</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Manufacturer</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody id="products-data">
+              <!-- Data will be dynamically inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Load our JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
